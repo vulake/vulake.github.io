@@ -316,14 +316,14 @@ table{
     margin-right: 0px;
     list-style: none;
 }
-.fa-youtube-play{
+.under .fa-youtube-play{
     background: #292a30;
     color: #faf8f5;
     border-radius: 5px;
     margin-left: 10px;
     margin-right: 20px;
 }
-.fa-facebook {
+.under.fa-facebook {
     background: #292a30;
     color: #faf8f5;
     border-radius: 5px;
