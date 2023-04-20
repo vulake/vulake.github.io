@@ -1,3 +1,11 @@
+Skip to content
+Search or jump to…
+Pull requests
+Issues
+Codespaces
+Marketplace
+Explore
+ 
 *{
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -21,15 +29,24 @@
     margin-top: 25px;
 }
 .row2{
-    background-color: #f69631;
     display: flex;
     justify-content: flex-start;
     padding: 15px 30px 15px;
-    margin-top: -10px;
-}    
-.row1 li{
+    margin-top: px;
+}  
+#row2{
+    background-color: #f69631;
     display: flex;
     justify-content: flex-start;
+    margin-top: -30px;
+    margin-bottom: 50px;
+    text-align: center;
+    padding: -20px;
+    height: 60px;
+}  
+.row1 li{
+    display: flex;
+    justify-content: center;
     color: black;
     font-style: normal;
     align-items: center;
@@ -45,6 +62,88 @@
     align-items: center;
     font-weight: 700;
 }
-#timkiem{
-    margin-right: 80px;
+.input{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-left: -100px;
 }
+#row1{
+    display: flex;
+    justify-content: flex-start;
+    margin-top: -160px;
+    margin-bottom: -20px;
+}
+#search{
+    margin-left: 240px;
+    height: 30px;
+    border: 2px solid #cfd2e0;
+    width: 250px;
+}
+.fa{
+    padding: 10px 7px;
+    font-size: 10px;
+    width: 25px;
+    text-align: center;
+    text-decoration: none;
+  }
+.fa:hover {
+    opacity: 0.7;
+}
+.fa-facebook {
+    background: #cfd2e0;
+    color: #f69631;
+    border-radius: 5px;
+    margin-left: -40px;
+}
+.fa-twitter{
+    background: #cfd2e0;
+    color: #f69631;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+.fa-instagram{
+    background: #cfd2e0;
+    color: #f69631;
+    border-radius: 5px;  
+    margin-left: 10px;
+}
+.fa-youtube-play{
+    background: #cfd2e0;
+    color: #f69631;
+    border-radius: 5px;
+    margin-left: 10px;
+    margin-right: 20px;
+}
+#icon{
+    display: flex;
+    justify-content: flex-end;
+}
+.icon{
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    margin-left: 200px;
+}
+#row1 ul li:hover{
+    cursor: pointer;
+}    
+#row2 ul li:hover{
+    cursor: pointer;
+}
+#banner{
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.banner1{
+    margin-top: -35px;
+}
+.center{
+    margin-left: 40px;
+    margin-right: 40px;
+    display: grid;
+    grid-template-columns: 627px 627px;
+    grid-template-rows: 300px 250px;
+}    
+
+
